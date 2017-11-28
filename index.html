@@ -3,8 +3,28 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" href="xiao.css" class="">
 </head>
 <body>
-	jfjvjkxjkvkjvjkvjcxbvjxk
+	<div class="box">
+		<button class="btn">点击</button>
+		<ul>
+			<li>啦啦啦</li>
+			<li>啦啦啦</li>
+			<li>啦啦啦</li>
+			<li>啦啦啦</li>
+			<li>啦啦啦</li>
+			<li>啦啦啦</li>
+		</ul>
+	</div>
+	<script>
+		var btn = document.querySelector('.btn');
+		btn.onclick = function () {
+			document.body.style.background = 'pink';
+			var div = document.createElement('div');
+			div.className = 'alod';
+			document.body.appendChild(div);
+		}
+	</script>
 </body>
 </html>
